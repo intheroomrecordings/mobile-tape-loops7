@@ -5,7 +5,7 @@ players.forEach(player => {
   const playBtn = player.querySelector('.play-btn');
   const stopBtn = player.querySelector('.stop-btn');
   const volumeSlider = player.querySelector('.volume-slider');
-  const audio = new Audio(`audio/loop${loopNum}.mp3`);
+  const audio =  Audio(`audio/loop${loopNum}.mp3`);
   audio.loop = true;
 
   playBtn.addEventListener('click', () => {
